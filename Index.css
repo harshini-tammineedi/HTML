@@ -1,0 +1,35 @@
+
+.title-deco{
+    font-weight: 100;
+    font-style: normal;
+}
+
+.text-deco{
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    color: red;
+    text-align: center;
+}
+
+.container-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.to-do-Card{
+    width: 150px;
+    border: 1px solid red;
+    padding: 10px;
+    height: 250px;
+    box-shadow: 2px 2px 4px 1px lightgray;
+    margin: 2px;
+}
+
+.card-heading{
+    text-align: center;
+    color: red;
+    font-weight: 100;
+    font-size: 20px;
+}
